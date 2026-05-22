@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(253, 243, 223);
+}
+
+.receita {
+    border: black 0.005rem solid;
+    border-radius: 1rem;
+    padding: 1.6rem;
+    padding-top: 0.6rem;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.navbar {
+    color: white;
+}
+
+.options {
+    background-color: rgb(65, 29, 13);
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+}
+
+.desc-n {
+    display:flex;
+    color: black;
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+.element-2 {
+}
+
+.video {
+    height: 20em;
+    width: 30em;
+}
+
+.container-2 {
+    height: 30em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.element-1 {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+.bolo {
+    width: 100%;
+    height: 85%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+.element-1 p {
+    height: 2%;
+
+    margin: 0;
+    padding: 0.5rem;
+
+    text-align: center;
+}
